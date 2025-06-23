@@ -2,8 +2,8 @@ import {Link} from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className='w-11/12 mx-auto'>
-      <div className="navbar bg-base-100">
-        <div className="navbar-start">
+      <div className="navbar bg-base-100 justify-center mt-6">
+        <div className="">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -26,7 +26,7 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
             <li>
-              <Link>Product</Link>
+              <Link>Products</Link>
             </li>
             <li>
               <Link>Pricing</Link>
@@ -36,24 +36,30 @@ const Navbar = () => {
             </li>
             </ul>
           </div>
-          <img src="https://i.ibb.co/3YrkvxV8/busines-high-resolution-logo-transparent.png" alt="Logo" className='w-36' />
+         
         </div>
-        <div className="navbar-center hidden lg:flex border rounded-xl shadow-sm ">
+        <div className=" hidden lg:flex border rounded-xl shadow-sm p-1 px-8 gap-4">
+           <Link to="/">
+          <img src="https://i.ibb.co/3YrkvxV8/busines-high-resolution-logo-transparent.png" alt="Logo" className='w-36' /></Link>
           <ul className="menu menu-horizontal px-1  text-lg">
             <li>
-              <Link>Product</Link>
+              <Link to="/products">Products</Link>
             </li>
             <li>
-              <Link>Pricing</Link>
+              <Link  to="/pricing">Pricing</Link>
             </li>
             <li>
-              <Link>Contact</Link>
+              <Link to="/sales">Sales</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/blogs">Blogs</Link>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn  bg-secondary text-white">Sign up</a>
-        </div>
+      
       </div>
     </div>
   );
