@@ -10,6 +10,9 @@ import Home from './Layoyuts/Home.jsx';
 import App from './App.jsx';
 import { Blogs } from './Layoyuts/Blogs.jsx';
 import Sales from './Layoyuts/Sales.jsx';
+import Contact from './Layoyuts/Contact.jsx';
+import Pricing from './Layoyuts/Pricing.jsx';
+import Products from './Layoyuts/Products.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,11 +25,11 @@ const router = createBrowserRouter([
       },
       {
         path:"/products",
-        element: <h1 className='text-6xl font-semibold text-center'>This is the Product page !!</h1>
+        element: <Products></Products>
       },
       {
         path:"/pricing",
-        element: <h1 className='text-6xl font-semibold text-center'>This is the Pricing page !!</h1>
+        element:<Pricing></Pricing>
       },
       {
         path:"/sales",
@@ -34,7 +37,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/contact",
-        element: <h1 className='text-6xl font-semibold text-center'>This is the contact page !!</h1>
+        element: <Contact></Contact>
       },
       {
         path:"/blogs",

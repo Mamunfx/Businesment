@@ -1,4 +1,4 @@
-import { Blog_data } from "../../data";
+import { Blog_data } from "../../Data/data";
 const blogs = Blog_data;
 export const Blogs = () => {
   return (

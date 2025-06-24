@@ -1,4 +1,4 @@
-import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis,ResponsiveContainer } from "recharts";
 
 const data = [
   {
@@ -42,16 +42,18 @@ const Sales = () => {
   return (
     <div className="space-y-12 mt-12 mb-12 w-11/12 mx-auto">
         <h1 className="text-5xl font-semibold">Trending blogs :</h1>
-      <div>
-        <BarChart width={730} height={250} data={data}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="pv" fill="#8884d8" />
-          <Bar dataKey="uv" fill="#82ca9d" />
-        </BarChart>
+      <div style={{ width: "100%", height: 500 }}>
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart data={data}>
+   
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="pv" fill="#8884d8" />
+            <Bar dataKey="uv" fill="#82ca9d" />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
     </div>
   );
