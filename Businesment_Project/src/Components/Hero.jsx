@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="hero my-12 py-12">
+      <div className="hero my-12 py-4">
         <div className="hero-content flex-col lg:flex-row justify-center">
           <img
             src="https://i.ibb.co/LJsHkZK/business-people-meeting-office.jpg"
