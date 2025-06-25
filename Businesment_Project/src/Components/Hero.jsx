@@ -9,7 +9,7 @@ const Hero = () => {
               Leading platform
             </button>
             <h1 className="text-5xl font-bold">
-              Empowerment through effective management of your business
+              Empowerment through effective management of <span className="text-primary">your business</span>
             </h1>
             <p className="py-6">
               Maximize your business potential with our empowering and powerful
