@@ -18,13 +18,13 @@ const Hero = () => {
               expert guidance and support.
             </p>
             <Link to="/products">
-            <button className="btn btn-primary bg-secondary">
+            <button className="btn btn-primary bg-secondary text-white">
               Get Started
             </button>
             </Link>
           </div>
 
-          <div className="w-full h-[28rem] gap-3u lg:w-1/2 grid grid-cols-2 md:grid-cols-3 grid-rows-3 ">
+          <div className="w-full h-[28rem] gap-3 lg:w-1/2 grid grid-cols-2 md:grid-cols-3 grid-rows-3 ">
             <div className="col-span-2 row-span-2 relative group">
               <img
                 src="https://i.ibb.co/LJsHkZK/business-people-meeting-office.jpg"

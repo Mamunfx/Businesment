@@ -24,15 +24,15 @@ const Footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </nav>
   <form >
-    <h6 className="footer-title">Newsletter</h6>
+    <h6 className="footer-title ">Newsletter</h6>
     <fieldset className="w-80">
-      <label>Enter your email address</label>
+      <label className="">Enter your email address</label>
       <div className="join">
         <input
           type="text"
           placeholder="username@site.com"
-          className="input input-bordered join-item" />
-        <button className="btn btn-primary join-item bg-secondary">Subscribe</button>
+          className="input input-bordered join-item rounded-l-full" />
+        <button className="btn btn-primary join-item bg-secondary rounded-full">Subscribe</button>
       </div>
     </fieldset>
   </form>

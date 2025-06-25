@@ -6,7 +6,7 @@ const Products = () => {
       <h1 className="text-4xl font-bold text-center mt-6 text-primary">
         We offer a wide range of services
       </h1>
-      <p className="text-center w-8/12 mx-auto pb-8 text-gray-600">
+      <p className="text-center lg:w-8/12 mx-auto pb-8 text-gray-600">
         Every service provides you with expert guidance to grow more ! Make a
         substantial grow in your existing busines with busiment, where we guide
         you and make effective plans to execute with atmost comfort.
