@@ -1,9 +1,7 @@
-import React from "react";
-
 const WWD = () => {
   return (
     <div>
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left ml-6">
             <h1 className="text-5xl font-bold  w-9/12">
@@ -17,8 +15,8 @@ const WWD = () => {
 
             <div>
               <ul className="steps steps-vertical ">
-                <li className="step step-primary mt-6 ">
-                    <div className="text-left w-6/12 space-y-4 ml-4">
+                <li className="step step-primary mt-4 ">
+                    <div className="text-left w-8/12 space-y-4 ml-4">
                         <h1 className="text-4xl">We go anywhere</h1>
                         <p>We can work anywhere there are people with smartphones, mobilizing thousands of people simultenously.</p>
 
@@ -26,14 +24,14 @@ const WWD = () => {
                     
                 </li>
                 <li className="step step-primary mt-4">
-                    <div className="text-left w-6/12 space-y-4 ml-4">
+                    <div className="text-left w-8/12 space-y-4 ml-4">
                         <h1 className="text-4xl">A greener alternative</h1>
                         <p>We can work anywhere there are people with smartphones, mobilizing thousands of people simultenously.</p>
 
                     </div>
                 </li>
                 <li className="step step-primary mt-4">
-                    <div className="text-left w-6/12 space-y-4 ml-4">
+                    <div className="text-left w-8/12 space-y-4 ml-4">
                         <h1 className="text-4xl">Take care everything</h1>
                         <p>We can work anywhere there are people with smartphones, mobilizing thousands of people simultenously.</p>
 
@@ -46,7 +44,7 @@ const WWD = () => {
 
           <div className="text-center lg:text-left">
             <img
-              src="https://i.ibb.co/6BSpH7K/7000961.jpg"
+              src="https://i.ibb.co/9krZcLnZ/2496-1.jpg"
               alt="Sideimg"
               className="max-h-screen"
             />

@@ -3,13 +3,13 @@ const products = product_data;
 const Pricing = () => {
   return (
     <div className="space-y-16 mt-12 mb-12 w-11/12 mx-auto">
-      <h1 className="text-5xl font-semibold my-6">Choose the best plan for you :</h1>
+      <h1 className="text-5xl font-semibold my-6 text-primary">Choose the best plan for you :</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product, i) => (
-          <div key={i} className="card  bg-base-100 shadow-sm">
+          <div key={i} className="card  bg-base-100 shadow-sm hover:shadow-2xl transition-shadow duration-300 border">
             <div className="card-body">
-              <span className="badge badge-xs badge-warning">
+              <span className="badge badge-xs badge-warning bg-blue-100 border-none text-black">
                 {product.tag}
               </span>
               <div className="flex justify-between">
@@ -76,7 +76,7 @@ const Pricing = () => {
                   </span>
                 </li>
               </ul>
-              <div className="mt-6">
+              <div className="mt-6 w-9/12 mx-auto">
                 <button className="btn btn-primary btn-block bg-primary">Subscribe</button>
               </div>
             </div>

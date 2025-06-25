@@ -5,7 +5,7 @@ export const product_data = [
     tag: "Most Popular",
     price: 29,
     priceUnit: "mo",
-    image: "/images/products/business-strategy-dashboard.jpg",
+    image: "https://i.ibb.co/6BSpH7K/7000961.jpg",
     description:
       "Empower your business with a digital strategy hub that puts vital metrics, goal tracking, and growth insights at your fingertips. The Business Strategy Dashboard helps you set, monitor, and achieve your business objectives with real-time data and user-friendly visuals, all in one centralized platform.",
     features: [
@@ -21,7 +21,7 @@ export const product_data = [
     tag: "Popular",
     price: 25,
     priceUnit: "mo",
-    image: "/images/products/management-training-academy.jpg",
+    image: "https://i.ibb.co/jbx72Cs/agent-couple-signing-contract-close-up-dark-backgrounds.jpg",
     description:
       "Unlock your leadership potential with our expert-led training ecosystem. The Management Training Academy provides interactive courses, workshops, and real-world guidance to help you and your team master the art of modern business management.",
     features: [
@@ -37,7 +37,7 @@ export const product_data = [
     tag: "New",
     price: 15,
     priceUnit: "mo",
-    image: "/images/products/growth-accelerator-toolkit.jpg",
+    image: "https://i.ibb.co/tQDpTLz/19197169.jpg",
     description:
       "Fuel your business expansion with our comprehensive toolkit. From customizable business plans to marketing guides and financial calculators, the Growth Accelerator Toolkit gives you everything you need to scale efficiently and strategically.",
     features: [
@@ -53,7 +53,7 @@ export const product_data = [
     tag: "Most Popular",
     price: 99,
     priceUnit: "mo",
-    image: "/images/products/personalized-coaching-service.jpg",
+    image: "https://i.ibb.co/C21XQ83/caucasian-young-woman-sitting-with-human-resources-manager-job-interview-male-boss-asking-questions.jpg",
     description:
       "Receive tailored support and actionable advice from seasoned business coaches. Our Personalized Coaching Service matches you with a mentor who guides your growth journey, keeps you accountable, and helps you overcome your unique challenges.",
     features: [
@@ -69,7 +69,7 @@ export const product_data = [
     tag: "Popular",
     price: 10,
     priceUnit: "mo",
-    image: "/images/products/empowerment-community-platform.jpg",
+    image: "https://i.ibb.co/5hxGbyD/6671.jpg",
     description:
       "Join a thriving community of business leaders, innovators, and experts. The Empowerment Community Platform offers networking, resource sharing, and a space to ask questions and learn from others on the same journey.",
     features: [
@@ -85,7 +85,7 @@ export const product_data = [
     tag: "New",
     price: 22,
     priceUnit: "mo",
-    image: "/images/products/automated-task-project-manager.jpg",
+    image: "https://i.ibb.co/s3C5fHB/pexels-shvets-production-7176026.jpg",
     description:
       "Stay effortlessly organized with our powerful project management tool. Assign tasks, track progress, and automate reminders to ensure your team delivers on time, every time.",
     features: [
@@ -101,9 +101,9 @@ export const product_data = [
     tag: "Popular",
     price: 8,
     priceUnit: "mo",
-    image: "/images/products/business-health-assessment-app.jpg",
+    image: "https://i.ibb.co/LtPFVrT/22445014-2112-w037-n003-68-B-p1-68-1.jpg",
     description:
-      "Quickly evaluate your business’s strengths and areas for improvement. Our Business Health Assessment App delivers instant, actionable insights and benchmarks your performance against industry standards.",
+      "Quickly evaluate your business's strengths and areas for improvement. Our Business Health Assessment App delivers instant, actionable insights and benchmarks your performance against industry standards.",
     features: [
       "10-minute interactive business assessment",
       "Personalized feedback and improvement tips",

@@ -38,9 +38,9 @@ const Navbar = () => {
           </div>
          
         </div>
-        <div className=" hidden lg:flex border rounded-xl shadow-sm p-1 px-8 gap-4">
+        <div className=" hidden lg:flex border rounded-xl shadow-sm p-1 px-8 gap-4 justify-center items-center">
            <Link to="/">
-          <img src="https://i.ibb.co/3YrkvxV8/busines-high-resolution-logo-transparent.png" alt="Logo" className='w-36' /></Link>
+          <img src="https://i.ibb.co/3YrkvxV8/busines-high-resolution-logo-transparent.png" alt="Logo" className='w-28' /></Link>
           <ul className="menu menu-horizontal px-1  text-lg">
             <li>
               <Link to="/products">Products</Link>
