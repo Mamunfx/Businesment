@@ -8,9 +8,6 @@ import {
 import './index.css'
 import Home from './Layoyuts/Home.jsx';
 import App from './App.jsx';
-import { Blogs } from './Layoyuts/Blogs.jsx';
-import Sales from './Layoyuts/Sales.jsx';
-import Contact from './Layoyuts/Contact.jsx';
 import Pricing from './Layoyuts/Pricing.jsx';
 import Products from './Layoyuts/Products.jsx';
 
@@ -31,20 +28,6 @@ const router = createBrowserRouter([
         path:"/pricing",
         element:<Pricing></Pricing>
       },
-      {
-        path:"/sales",
-        element: <Sales></Sales>
-      },
-      {
-        path:"/contact",
-        element: <Contact></Contact>
-      },
-      {
-        path:"/blogs",
-        element: <Blogs></Blogs>
-      },
-      
-      
     ]
   },
 ]);

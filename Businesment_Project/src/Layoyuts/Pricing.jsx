@@ -3,7 +3,7 @@ const products = product_data;
 const Pricing = () => {
   return (
     <div className="space-y-16 mt-12 mb-12 w-11/12 mx-auto">
-      <h1 className="text-5xl font-semibold my-6 text-primary">Choose the best plan for you :</h1>
+      <h1 className="text-5xl font-semibold my-6 text-primary">Choose the best plan for you </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product, i) => (
